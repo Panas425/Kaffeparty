@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <title>A simple HTML document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <header>
+      <div class="logo">
+          <img src="bilder/coffee-cup.png" alt="Företagslogotyp">
+          <div class="company-name">Kaffeparty</div>
+      </div>
+  </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="/Index.html">Home</a>
+              <a class="nav-link" href="/Products.html">Produkter</a>
+              <a class="nav-link active" href="/AboutUs.html">Om oss</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+</head>
+<body>
+
+    <div class="container-sm py-5">
+        
+        <div class="row" id="about-row">
+            <div class="col">
+                <h1><u>Om Företaget</u></h1>
+                <p>KaffeParty AB är ett innovativt företag som specialiserar 
+                    sig på att tillhandahålla skräddarsydda kaffepartyn för 
+                    alla typer av evenemang. Oavsett om det är en 
+                    företagskonferens, bröllop, födelsedagsfest eller en 
+                    intim samling med vänner, erbjuder KaffeParty AB en 
+                    unik och minnesvärd kaffeperience som kommer att förhöja 
+                    din tillställning.
+                </p>
+            </div>
+
+        </div>
+        <div class="row" id="about-row">
+            <h1><u>Tjänster</u></h1>
+            <div class="col pt-3">
+                <h4>Kaffebar på Hjul</h4>
+                <ul>
+                    <li>
+                    En mobil kaffebar som kan ställas upp 
+                    var som helst och erbjuder en komplett 
+                    meny av espressodrycker, cappuccino, 
+                    latte och mycket mer.
+                    </li>
+                    <li>
+                        Erfarna baristor som förbereder varje dryck med omsorg och expertis.
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col pt-3">
+                <h4>Kaffeupplevelser:</h4>
+                <ul>
+                    <li>
+                        Anpassade kaffemenyer 
+                        som kan skräddarsys efter dina specifika 
+                        behov och önskemål.
+                    </li>
+                    <li>
+                        Tematiska kaffedrycker och specialrecept
+                         för att matcha temat på ditt evenemang.
+                    </li>
+                </ul>
+
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h4>Kaffedemonstrationer:</h4>
+                    <ul>
+                        <li>
+                            Live-demonstrationer där dina gäster kan lära sig mer
+                             om kaffets ursprung, bryggtekniker och konsten att 
+                             göra den perfekta koppen.
+                        </li>
+                        <li>
+                            Workshops där deltagarna får prova på att brygga kaffe och skapa latte art.
+                        </li>
+                    </ul>
+    
+                </div>
+                <div class="col">
+                    <h4>Kaffeservice:</h4>
+                    <ul>
+                        <li>
+                            Helhetslösningar för företagsevenemang inklusive morgonkaffe, eftermiddagsfika och kvällsarrangemang.
+                        </li>
+                        <li>
+                            Flexibla paket som inkluderar kaffe, te, bakverk och snacks.
+                        </li>
+                    </ul>
+    
+                </div>
+            </div>
+
+        </div>
+        <div class="row mt-5 pt-5 py-5">
+            <div class="col">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="bilder/man.jpg" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">VD</h5>
+                          <p class="card-text"><strong>Namn:</strong> John Doe</p>
+                          <p class="card-text"><strong>Telefon:</strong> 012-345 6789</p>
+                          <p class="card-text"><strong>E-post:</strong> john.doe@kaffeparty.se</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="bilder/woman.jpg" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">VD</h5>
+                            <p class="card-text"><strong>Namn:</strong> Jane Smith</p>
+                            <p class="card-text"><strong>Telefon:</strong> 098-765 4321</p>
+                            <p class="card-text"><strong>E-post:</strong> jane.smith@kaffeparty.se</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <p>&copy; <span id="year"></span> kaffeparty.se. Alla rättigheter förbehållna.</p>
+        <p>Webmaster: <a href="mailto:webmaster@kaffeparty.se">webmaster@kaffeparty.se</a></p>
+      </footer>
+      
+      <script>
+        // JavaScript för att dynamiskt sätta året
+        document.getElementById('year').textContent = new Date().getFullYear();
+      </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
